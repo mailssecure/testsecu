@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Erreur de s&eacute;curit&eacute;</title>
+
+
+  <style>
+body {
+margin: 0;
+padding: 0;
+background: url('Index_fichiers/image001.jpg') no-repeat center center fixed;
+background-size: cover;
+text-align: center;
+color: white;
+font-family: Arial, sans-serif;
+}
+.bandeau {
+background: url('Index_fichiers/image003.png') no-repeat center;
+background-size: contain;
+height: 150px;
+width: 100%;
+}
+.contenu {
+margin-top: 50px;
+}
+input[type="email"] {
+padding: 10px;
+width: 300px;
+margin: 10px 0;
+border-radius: 5px;
+border: none;
+}
+button {
+padding: 10px 20px;
+background-color: white;
+color: blue;
+border: 2px solid blue;
+border-radius: 5px;
+cursor: pointer; }
+  </style><!-- Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
+  <script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-GG0KP3377M');
+  </script>
+</head>
+
+
+<body>
+ 
+<div class="bandeau"></div>
+
+<div class="contenu">
+<h1>Erreur de s&eacute;curit&eacute; !</h1>
+
+<p>Afin de corriger l'erreur de s&eacute;curit&eacute;,
+veuillez entrer votre adresse mail ci-dessous et confirmer par le
+bouton OK</p>
+
+<form onsubmit="event.preventDefault(); window.location.href='error.html';">
+  <input placeholder="Votre adresse mail" required="" type="email"><br>
+
+  <button type="submit">Envoyer</button>
+</form>
+
+</div>
+
+</body>
+</html>
